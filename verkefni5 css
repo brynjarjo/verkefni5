@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  main { 
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 20px;
+  }
+   h2,h3,h4,h5{
+    font-size: 22px;
+    line-height: 22px;
+  }
+  p{  /*stærð á letri í textanum*/
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .cards {  
+    background: #eee;
+    justify-content:space-around;
+    display: flex;
+    flex-flow: row wrap;
+  
+  }
+  .card>*
+  {
+    padding: 10px;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    max-width: 470px;
+    max-height: 300px;
+    margin-bottom: 10px;
+    overflow: auto;
+    word-wrap: break-word;
+  }
+  .card__content{
+    display: flex;
+    }
+  .card__p__container{
+    overflow: auto;
+  
+  }
+  .card>ul{
+    list-style: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: auto;
+  
+  }
+  li
+  {
+    display: inline-flex;
+  }
+  
+  .card__{ /*myndir*/
+  
+  }
+  .card__img>img{
+  
+    width: 150px;
+   
+  }
+  
